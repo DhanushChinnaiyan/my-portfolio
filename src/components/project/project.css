@@ -1,6 +1,7 @@
 .projectdiv{
-    padding: calc(60px + 3vw) calc(10px + 0.1vw) calc(10px + 0.1vw) calc(10px + 0.1vw);
-    /* border: 1px solid black; */
+    padding-top: calc(60px + 3vw);
+    width: 80%;
+    margin-left: 10%;
 }
 
 .projecttittle{
@@ -12,31 +13,29 @@
     -webkit-text-fill-color: transparent;
     cursor: default;
     text-align: center;
-    /* border: 1px solid black; */
+    /*  */
 }
 .projectcarddiv{
     display: flex;
     margin: calc(10px + 2vw) 0 calc(10px + 2vw) 0;
     flex-wrap: wrap;
     justify-content: space-around;
-
     gap: calc(10px + 1vw);
-    /* border: 1px solid black; */
+    /*  */
 }
 
 .projectcard{
-    padding: calc(10px + 1vw) calc(10px + 1vw) calc(20px + 1vw) calc(10px + 1vw);
+    padding: 5px 10px 20px 10px;
     border-radius: calc(3px + 1vw);
-    height: calc( 160px + 13vw);
-    width: calc( 155px + 5.5vw);
+    height: calc( 160px + 4vw);
+    width: calc( 155px + 1vw);
     box-shadow:0 0 calc(10px + 0.2vw) rgb(185, 94, 173);
     background-color: rgb(254, 215, 249);
-    
+
 }
 
 .projectcard:hover{
     transform: scale(1.03);
-    cursor: pointer;
     transition: all 300ms;
 }
 
@@ -47,103 +46,61 @@
     cursor: default;
     text-align: center;
     font-weight: bold;
-    font-size: calc(12px + 0.6vw);
+    font-size: calc(12px + 0.3vw);
+    
 }
 
 .projectimage{
     display: flex;
     justify-content: center;
     border-radius: calc(3px + 0.5vw);
-    margin: calc(5px + 1vw) 0 calc(5px + 1vw) 0;
+    margin: 5px 0 5px 0;
+    
 }
 
 .projectimage>img{
-    width: calc(160px + 5vw);
-    height: calc(80px + 5vw);
-    border-radius: calc(3px + 0.5vw);
+    width: calc(160px + 1vw);
+    height: calc(80px + 1vw);
+    border-radius: calc(3px + 0.2vw);
 }
 
 .buttonLink{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: calc(2px + 0.5vw);
+    gap: 4px;
     background: transparent;
-
+    margin-top: calc(10px + 1vw);
 }
-.buttonLink>button{
+.buttonLink>a>button{
    
-    padding: calc(5px + 0.5vw) calc(10px + 0.5vw) calc(5px + 0.5vw) calc(10px + 0.5vw);
-    border-radius: calc(3px + 0.5vw);
-    width: max-content;
+    padding: 5px 8px 5px 8px;
+    border-radius: 3px; 
+    width: calc(150px + 0.5vw);
     border: none;
     box-shadow: inset 0 0 calc(10px + 0.5vw) rgb(249, 116, 231);
     background: transparent;
 }
 
-.buttonLink>button>a{
+.buttonLink>a>button{
     text-decoration: none;
-    font-size: calc(8px + 0.2vw);
+    font-size: calc(9px + 0.1vw);
     font-weight: bold;
-
+    color: rgb(156, 4, 118);
 }
-.buttonLink>button:nth-child(2){
+.buttonLink>a:nth-child(2)>button{
     box-shadow: inset 0 0 calc(10px + 0.5vw) rgb(234, 10, 174);
 }
-.buttonLink>button:hover{
-
-    transform: scale(1.1);
+.buttonLink>a>button:hover{
+    transform: scale(1.05);
     cursor: pointer;
     transition: all 300ms ;
-
 }
 
-.projectbody{
-    position: absolute;
-    background: transparent;
-}
+
 
 .projectblur{
     background: rgb(250, 209, 250);
     width: calc(145px + 6.5vw);
     height: calc(170px + 12vw);
-}
-
-/* common mail and password */
-.common-passwordDiv{
-    display: flex;
-    flex-wrap: wrap;
-    gap: calc(20px + 0.5vw);
-    justify-content: center;
-}
-
-.innerDiv{
-    display: flex;
-    flex-direction: column;
-    gap: calc(5px + 0.1vw);
-}
-
-.tittle{
-    font-weight: bolder;
-    font-size: calc(15px + 0.3vw);
-    margin-bottom: calc(5px + 0.1vw);
-    background: linear-gradient(to bottom,rgb(223, 4, 209) 20%,rgb(85, 18, 80));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    cursor: default;
-}
-
-.mailDiv>:nth-child(1),.passwordDiv>:nth-child(1){
-    font-size: calc(9px + 0.3vw);
-    font-weight: bolder;
-    background: linear-gradient(to bottom,rgb(223, 4, 209) 20%,rgb(85, 18, 80));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    cursor: default;
-}
-
-.mailDiv>:nth-child(2),.passwordDiv>:nth-child(2){
-    font-size: calc(9px + 0.3vw);
-    font-weight: bolder;
-
 }

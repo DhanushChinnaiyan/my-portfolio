@@ -2,8 +2,16 @@ import foodCompany from '../../images/foodcompany.png'
 import wisdomUrl from '../../images/wisdomurl.png'
 import moneyManager from '../../images/moneymanager.png'
 import studySpot from '../../images/studyspotcapital.png'
+import ecomStorImage from '../../images/ecomeStore.jpeg'
 
 const projectdata =[
+    {
+        projectName : "Ecommerce Store",
+        projectImage : ecomStorImage,
+        frontendgithubLink : "https://github.com/DhanushChinnaiyan/Ecommerce-Frontend",
+        backendgithubLink:"https://github.com/DhanushChinnaiyan/Ecommerce-Backend",
+        deployedLink:"https://ecom-app-2023.netlify.app/"
+    },
     {
         projectName : "Food Company",
         projectImage : foodCompany,
