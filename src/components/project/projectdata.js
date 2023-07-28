@@ -20,18 +20,18 @@ const projectdata =[
         deployedLink:"https://delightfuleats.netlify.app/"
     },
     {
-        projectName : "Wisdom URL",
-        projectImage : wisdomUrl,
-        frontendgithubLink : "https://github.com/DhanushChinnaiyan/URL-SHORTNER-FRONTEND",
-        backendgithubLink:"https://github.com/DhanushChinnaiyan/URL-SHORTNER-BACKEND",
-        deployedLink:"https://url-shortener-fe-task.netlify.app"
-    },
-    {
         projectName : "Money Tracker Pro",
         projectImage : moneyManager,
         frontendgithubLink : "https://github.com/DhanushChinnaiyan/money-manager-frontend",
         backendgithubLink:"https://github.com/DhanushChinnaiyan/money-manager-backend",
         deployedLink:"https://moneytrackerpro.netlify.app/"
+    },
+    {
+        projectName : "Wisdom URL",
+        projectImage : wisdomUrl,
+        frontendgithubLink : "https://github.com/DhanushChinnaiyan/URL-SHORTNER-FRONTEND",
+        backendgithubLink:"https://github.com/DhanushChinnaiyan/URL-SHORTNER-BACKEND",
+        deployedLink:"https://url-shortener-fe-task.netlify.app"
     },
     {
         projectName : "StudySpot Capital",
