@@ -6,18 +6,18 @@ import ecomStorImage from '../../images/ecomeStore.jpeg'
 
 const projectdata =[
     {
-        projectName : "Ecommerce Store",
+        projectName : "Ecommercezilla",
         projectImage : ecomStorImage,
         frontendgithubLink : "https://github.com/DhanushChinnaiyan/Ecommerce-Frontend",
         backendgithubLink:"https://github.com/DhanushChinnaiyan/Ecommerce-Backend",
-        deployedLink:"https://ecom-app-2023.netlify.app/"
+        deployedLink:"https://ecommercezilla.netlify.app/"
     },
     {
-        projectName : "Food Company",
+        projectName : "Delightful Eats",
         projectImage : foodCompany,
         frontendgithubLink : "https://github.com/DhanushChinnaiyan/Food-Token-generator-front-end",
         backendgithubLink:"https://github.com/DhanushChinnaiyan/food-token-generator-backend",
-        deployedLink:"https://food-compony.netlify.app/"
+        deployedLink:"https://delightfuleats.netlify.app/"
     },
     {
         projectName : "Wisdom URL",
@@ -27,11 +27,11 @@ const projectdata =[
         deployedLink:"https://url-shortener-fe-task.netlify.app"
     },
     {
-        projectName : "Money Equity",
+        projectName : "Money Tracker Pro",
         projectImage : moneyManager,
         frontendgithubLink : "https://github.com/DhanushChinnaiyan/money-manager-frontend",
         backendgithubLink:"https://github.com/DhanushChinnaiyan/money-manager-backend",
-        deployedLink:"https://money-manager-frontend-webcode.netlify.app/"
+        deployedLink:"https://moneytrackerpro.netlify.app/"
     },
     {
         projectName : "StudySpot Capital",
