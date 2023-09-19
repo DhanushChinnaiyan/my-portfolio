@@ -146,7 +146,7 @@
 
 .rightblur {
     position: relative;
-    background: rgb(240, 219, 253);
+    background: rgb(250, 226, 250);
     left: calc(-70px + 10vw);
     top: calc(20px - 2vw);
     width: calc(20rem + 10vw);
