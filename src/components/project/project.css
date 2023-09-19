@@ -1,7 +1,8 @@
 .projectdiv{
     padding-top: calc(60px + 3vw);
     width: 90%;
-    margin: 0 3% 0 3%;
+    margin-left: 4%;
+    /* border: 1px solid black; */
 }
 
 .projecttittle{

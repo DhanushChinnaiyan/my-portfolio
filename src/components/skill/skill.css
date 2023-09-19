@@ -188,7 +188,7 @@
 
     .skilldiv {
         flex-direction: column;
-        height: calc(30vh + 30vw);
+        height: 27rem;
         align-items: center;
         border: 1px solid black;
     }
