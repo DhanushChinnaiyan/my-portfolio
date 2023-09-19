@@ -6,13 +6,6 @@ import ecomStorImage from '../../images/ecomeStore.jpeg'
 
 const projectdata =[
     {
-        projectName : "Ecommercezilla",
-        projectImage : ecomStorImage,
-        frontendgithubLink : "https://github.com/DhanushChinnaiyan/Ecommerce-Frontend",
-        backendgithubLink:"https://github.com/DhanushChinnaiyan/Ecommerce-Backend",
-        deployedLink:"https://ecommercezilla.netlify.app/"
-    },
-    {
         projectName : "Delightful Eats",
         projectImage : foodCompany,
         frontendgithubLink : "https://github.com/DhanushChinnaiyan/Food-Token-generator-front-end",

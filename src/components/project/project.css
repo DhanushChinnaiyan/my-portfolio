@@ -1,6 +1,6 @@
 .projectdiv{
     padding-top: calc(60px + 3vw);
-    width: 80%;
+    width: calc(70% + 10vw);
     margin-left: 10%;
 }
 

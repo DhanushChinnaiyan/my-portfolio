@@ -169,17 +169,15 @@
 
 
 .skillleftblur {
-
-    background: rgb(255, 254, 253);
+    background: rgb(238 210 255);
     margin-top: calc(10px + 2vw);
     width: 18rem;
-    height: calc(20rem + 1vw);
+    height: calc(10rem + 1vw);
 
 }
 
 .skillrightblur {
-
-    background: rgb(255, 254, 253);
+    background: rgb(238 210 255);
     height: calc(10rem + 5vw);
     width: calc(20rem + 13vw);
 
@@ -190,7 +188,7 @@
 
     .skilldiv {
         flex-direction: column;
-        height: calc(65vh + 10vw);
+        height: calc(57vh + 1vw);
         align-items: center;
         /* border: 1px solid black; */
     }

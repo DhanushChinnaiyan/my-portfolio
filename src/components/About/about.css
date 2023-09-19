@@ -119,16 +119,8 @@ margin-left: calc(15px + 2vw);
     position: absolute;
     background: transparent;
     cursor: pointer;
-
 }
 
-
-.aboutrightblur{
-    background: rgb(255, 254, 253);
-      width: calc(15rem + 15vw);
-      height: calc(7rem + 16vw);
-
-}
 
 @media screen and (width<=800px) {
     .abouttittle{
