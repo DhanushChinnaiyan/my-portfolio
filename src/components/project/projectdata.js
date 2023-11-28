@@ -1,8 +1,7 @@
 import foodCompany from '../../images/foodcompany.png'
 import wisdomUrl from '../../images/wisdomurl.png'
 import moneyManager from '../../images/moneymanager.png'
-import studySpot from '../../images/studyspotcapital.png'
-import ecomStorImage from '../../images/ecomeStore.jpeg'
+import noteEaseImage from '../../images/notesApplication.png'
 
 const projectdata =[
     {
@@ -27,11 +26,11 @@ const projectdata =[
         deployedLink:"https://url-shortener-fe-task.netlify.app"
     },
     {
-        projectName : "StudySpot Capital",
-        projectImage : studySpot,
-        frontendgithubLink : "https://github.com/DhanushChinnaiyan/day-42-frontend",
-        backendgithubLink:"https://github.com/DhanushChinnaiyan/day-42-backend",
-        deployedLink:"https://day-42-teacher-student-frontend.netlify.app/"
+        projectName : "Note Ease",
+        projectImage : noteEaseImage,
+        frontendgithubLink : "https://github.com/DhanushChinnaiyan/Notes-application-frontend",
+        backendgithubLink:"https://github.com/DhanushChinnaiyan/Notes-application-backend",
+        deployedLink:"https://note-ease.netlify.app/"
     }
     
 ]
