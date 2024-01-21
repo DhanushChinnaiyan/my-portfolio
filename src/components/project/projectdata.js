@@ -1,5 +1,5 @@
 import foodCompany from '../../images/foodcompany.png'
-import wisdomUrl from '../../images/wisdomurl.png'
+import imdbClone from '../../images/imdbclone.png'
 import moneyManager from '../../images/moneymanager.png'
 import noteEaseImage from '../../images/notesApplication.png'
 
@@ -19,18 +19,17 @@ const projectdata =[
         deployedLink:"https://moneytrackerpro.netlify.app/"
     },
     {
-        projectName : "Wisdom URL",
-        projectImage : wisdomUrl,
-        frontendgithubLink : "https://github.com/DhanushChinnaiyan/URL-SHORTNER-FRONTEND",
-        backendgithubLink:"https://github.com/DhanushChinnaiyan/URL-SHORTNER-BACKEND",
-        deployedLink:"https://url-shortener-fe-task.netlify.app"
-    },
-    {
         projectName : "Note Ease",
         projectImage : noteEaseImage,
         frontendgithubLink : "https://github.com/DhanushChinnaiyan/Notes-application-frontend",
         backendgithubLink:"https://github.com/DhanushChinnaiyan/Notes-application-backend",
         deployedLink:"https://note-ease.netlify.app/"
+    },{
+        projectName : "IMDB Clone",
+        projectImage : imdbClone,
+        frontendgithubLink : "https://github.com/DhanushChinnaiyan/IoFactory-web-application-frontend",
+        backendgithubLink:"https://github.com/DhanushChinnaiyan/IoFactory-web-application-backend",
+        deployedLink:"https://imdb-clone-io.netlify.app/"
     }
     
 ]
